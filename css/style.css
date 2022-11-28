@@ -959,6 +959,7 @@ li {
 }
 
 .footer-social__link::before {
+  cursor: pointer;
   color: #2A2C1F;
   padding: 0.1875rem;
   -webkit-transition: all 0.3s ease 0s;
@@ -2376,6 +2377,15 @@ li {
     display: none;
   }
 
+  .header-button__cart:active {
+    -webkit-transform: translateY(3px);
+        -ms-transform: translateY(3px);
+            transform: translateY(3px);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
   .howitworks__wrapper {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -2807,6 +2817,11 @@ li {
 
   .search-form__btn:hover {
     color: #CF6F49;
+  }
+
+  .header-button__cart:hover {
+    color: #CF6F49;
+    border: 1px solid #CF6F49;
   }
 
   .menu-footer__link:hover {
