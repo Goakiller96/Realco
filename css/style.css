@@ -786,8 +786,8 @@ li {
 .footer__body {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 15.625rem 1fr 18.125rem;
-  grid-template-columns: 15.625rem 1fr 18.125rem;
+  -ms-grid-columns: 47.5rem 1fr 18.125rem;
+  grid-template-columns: 47.5rem 1fr 18.125rem;
 }
 
 @supports (padding-top: clamp( 1.875rem , 0.8648989899rem  +  5.0505050505vw , 5rem )) {
